@@ -14,11 +14,16 @@ fetch_all_safe(), which gives up on a page after a timeout and returns None for 
 You edit speed_run.py. The tests in test_speed_run.py time your code and count how many fetches ran at once, so a sneaky one-by-one loop won't pass.
 
 ### Done means
- python quest.py 3 is all green (4 checks)
+ pytest is all green (4 checks)
  You can explain why 20 pages take about the same time as one when you use gather
  You can say why you'd cap the number of requests even when your code could send them all at once
-Run it
-python quest.py 3   # checks your work and points at the next TODO
+
+### Commands to run
+```
+cd day3/day3project
+python my_fake_webpage.py  
+python -m pytest test_speed_run.py -v
+```
 Make it yours (optional)
 Pick one to turn this into something you'd show in an interview:
 
