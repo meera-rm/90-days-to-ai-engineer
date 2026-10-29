@@ -1,0 +1,5 @@
+https://httpbin.org/get
+https://httpbin.org/delay/3
+https://httpbin.org/status/503
+https://httpbin.org/status/429
+https://httpbin.org/status/404

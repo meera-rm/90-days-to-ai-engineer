@@ -1,0 +1,12 @@
+[
+    {"title": "ML Engineer", "description": "Build and deploy ML models.", "salary": 1800000, "remote": true},
+    {"title": "  Data   Scientist ", "description": "Analyze data pipelines.", "salary": 1500000, "location": "Mumbai"},
+    {"title": "ML Intern", "description": "Assist with model training.", "salary": -5, "remote": true},
+    {"title": "LLM Engineer", "description": "Work on large language models.", "salary": 2000000, "url": "not-a-link", "remote": true},
+    {"title": "Applied Scientist", "description": "Research applied ML methods.", "salary": 2500000, "location": "Bengaluru"},
+    {"title": "   ", "description": "Empty title case.", "salary": 1200000, "remote": true},
+    {"title": "Backend + AI", "description": "Backend engineering with AI features.", "salary": 1900000},
+    {"title": "GenAI Developer", "description": "Build generative AI products.", "salary": 1700000, "remote": true},
+    {"title": "MLOps Engineer", "description": "Manage ML infrastructure.", "salary": 1600000, "location": "Bengaluru"},
+    {"title": "Data Engineer", "description": "Missing a required field on purpose.", "remote": true}
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "company": "Garner Health",
+    "platform": "greenhouse",
+    "url": "https://boards-api.greenhouse.io/v1/boards/garnerhealth/jobs",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 74
+  },
+  {
+    "company": "Definitive Healthcare",
+    "platform": "greenhouse",
+    "url": "https://boards-api.greenhouse.io/v1/boards/definitivehc/jobs",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 13
+  },
+  {
+    "company": "Clipboard Health",
+    "platform": "greenhouse",
+    "url": "https://boards-api.greenhouse.io/v1/boards/clipboardhealth/jobs",
+    "status": 404,
+    "attempts": 1,
+    "error": "HTTP 404",
+    "job_count": 0
+  },
+  {
+    "company": "PointClickCare",
+    "platform": "lever",
+    "url": "https://api.lever.co/v0/postings/pointclickcare?mode=json",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 72
+  },
+  {
+    "company": "Palantir",
+    "platform": "lever",
+    "url": "https://api.lever.co/v0/postings/palantir?mode=json",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 306
+  },
+  {
+    "company": "Ramp",
+    "platform": "ashby",
+    "url": "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=true",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 172
+  },
+  {
+    "company": "Linear",
+    "platform": "ashby",
+    "url": "https://api.ashbyhq.com/posting-api/job-board/linear?includeCompensation=true",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 32
+  },
+  {
+    "company": "Siemens Healthineers",
+    "platform": "smartrecruiters",
+    "url": "https://api.smartrecruiters.com/v1/companies/SiemensHealthineers/postings?limit=100&offset=0",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 0
+  },
+  {
+    "company": "Hugging Face",
+    "platform": "workable",
+    "url": "https://apply.workable.com/api/v1/widget/accounts/huggingface?details=true",
+    "status": 200,
+    "attempts": 1,
+    "error": null,
+    "job_count": 6
+  }
+]

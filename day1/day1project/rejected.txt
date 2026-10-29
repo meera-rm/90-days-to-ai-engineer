@@ -1,0 +1,3 @@
+record 1: company: Field required
+record 1: platform: Field required
+record 1: title: Field required

@@ -1,0 +1,48 @@
+[
+    {
+        "attempts": 1,
+        "url": "https://httpbin.org/get",
+        "status": 200,
+        "data": {
+            "args": {},
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate",
+                "Host": "httpbin.org",
+                "User-Agent": "Python/3.12 aiohttp/3.14.5"
+            },
+            "method": "GET",
+            "origin": "100.12.87.35",
+            "url": "https://httpbin.org/get"
+        },
+        "error": null
+    },
+    {
+        "attempts": 3,
+        "url": "https://httpbin.org/delay/3",
+        "status": null,
+        "data": null,
+        "error": "TimeoutError"
+    },
+    {
+        "attempts": 1,
+        "url": "https://httpbin.org/status/503",
+        "status": 503,
+        "data": null,
+        "error": null
+    },
+    {
+        "attempts": 1,
+        "url": "https://httpbin.org/status/429",
+        "status": 429,
+        "data": null,
+        "error": null
+    },
+    {
+        "attempts": 1,
+        "url": "https://httpbin.org/status/404",
+        "status": 404,
+        "data": null,
+        "error": null
+    }
+]
